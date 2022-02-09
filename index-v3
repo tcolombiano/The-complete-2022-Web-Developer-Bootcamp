@@ -41,18 +41,41 @@
   <h3>Hobbies</h3>
   <ul>
     <!--listas-->
-    <li>Jogos de RPG <!--listas ordenadas-->
-      <ul> <!--aqui começa o comando para fazer a lista-->
-        <li>RPG Indies</li><!--aqui começam os subitens da lista de Jogos de RPG-->
-        <li>RPG Gráficos pixelados</li>
-        <li>RPG Plataforma 2D</li> <!--final dos subitens-->
-      </ul><!--fechamento da primeira lista para fazer a sublista de itens-->
-    <li>Metroidvania</li>
-    <li>Ouvir música</li>
-    <li>Estudar espiritualidade</li>
-    <li>Ouvir a história das pessoas</li>
+    <strong>
+      <li>Jogos de RPG
+    </strong>
+    <!--listas ordenadas-->
+    <ul>
+      <!--aqui começa o comando para fazer a lista-->
+      <li>RPG Indies</li>
+      <!--aqui começam os subitens da lista de Jogos de RPG-->
+      <li>RPG Gráficos pixelados</li>
+      <li>RPG Plataforma 2D</li>
+      <!--final dos subitens-->
+    </ul>
+    <!--fechamento da primeira lista para fazer a sublista de itens-->
+    <ol>
+      <strong>
+        <li>Estudar programação</li>
+      </strong>
+      <strong>
+        <li>Estudar espiritualidade</li>
+      </strong>
+      <li>Ouvir a história das pessoas</li>
+      <li>Metroidvania</li>
+      <li>Ouvir música</li>
+      <strong>
+        <ol type="I">
+          <!--lista ordenada , type diz o tipo da lista, romanos,letras maiúsculas,minúsculas e no caso I é romanos-->
+          <li>Dançar</li>
+          <li>Meditar</li>
+          <li>Treinar</li>
+        </ol>
+      </strong>
 
+    </ol>
   </ul>
+
   </p>
 
 </body>
